@@ -70,7 +70,7 @@ body {
 
 .hero-image img {
   width: 400px;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 /* Experience Section */
