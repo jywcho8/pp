@@ -1,0 +1,180 @@
+
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  
+}
+
+.navbar .logo img {
+  height: 40px;
+}
+
+.navbar .nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: regular;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 60px 20px;
+  background-color: #fffff;
+}
+
+.hero-text {
+  max-width: 500px;
+  font-weight: bold;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-buttons button {
+  font-size: 0.8rem;
+  margin-right: 10px;
+  padding: 10px 30px;
+  border: 1.5px solid #333;
+  background-color: white;
+  cursor: pointer;
+  font-weight: medium;
+}
+
+.hero-buttons button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.hero-image img {
+  width: 400px;
+  border-radius: 10px;
+}
+
+/* Experience Section */
+.experience {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 20px;
+  background-color: #F0F5F2;
+}
+
+.experience-item {
+  max-width: 275px;
+  text-align: left;
+}
+
+/* Projects Section */
+.projects {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fffff;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.project {
+  max-width: 300px;
+  text-align: left;
+}
+
+.project button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: 1.5px solid #333;
+  background-color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.project button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Blogs Section */
+.blogs {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #F0F5F2;
+}
+
+.blog-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.blog {
+  padding: 20px;
+  border: 1px solid #ccc;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+/* Contact Section */
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+.contact button {
+  margin-top: 20px;
+  color: white;
+  padding: 10px 50px;
+  border: 1.5px solid #333;
+  background-color: black;
+  cursor: pointer;
+  font-weight: regular;
+}
+
+.contact button:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero, .experience, .project-list, .blog-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-list {
+    grid-template-columns: 1fr;
+  }
+}
