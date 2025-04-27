@@ -52,10 +52,14 @@ body {
   padding: 80px 20px;
   background-color: #fffff;
 
+
  
   position: relative;
   height: 100vh;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .hero-text {
@@ -92,6 +96,7 @@ body {
   object-fit: cover;
   transform: translateY(0);
   transition: transform 0.2s ease-out;
+  will-change: transform;
 }
 
 /* Experience Section */
