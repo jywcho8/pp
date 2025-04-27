@@ -180,19 +180,25 @@ body {
   }
 }
 
-
 /* Blog Card 추가 */
 .blog-card {
   background-color: #ffffff;
-  padding: 20px;
-  border: 1.5px solid #ddd;
-  border-radius: 10px;
+  padding-bottom: 24px;
+  border: 1px solid #ddd;
+  border-radius: 0px;
+  overflow: hidden;
   transition: box-shadow 0.3s ease;
-  text-align: left;
+  text-align: center;
 }
 
 .blog-card:hover {
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.blog-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .blog-link {
@@ -201,9 +207,12 @@ body {
 }
 
 .blog-link h3 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 1.1rem;
 }
+
 
 .blog-link p {
   font-size: 0.9rem;
@@ -222,4 +231,3 @@ body {
     grid-template-columns: 1fr;
   }
 }
-
