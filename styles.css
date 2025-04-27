@@ -179,3 +179,47 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+
+/* Blog Card 추가 */
+.blog-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border: 1.5px solid #ddd;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+  text-align: left;
+}
+
+.blog-card:hover {
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.blog-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.blog-link h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.blog-link p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* 반응형 대응 */
+@media (max-width: 768px) {
+  .blog-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-list {
+    grid-template-columns: 1fr;
+  }
+}
+
