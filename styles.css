@@ -13,6 +13,14 @@ body {
   color: #333;
 }
 
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
 /* Navigation Bar */
 .navbar {
   display: flex;
