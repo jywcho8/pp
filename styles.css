@@ -51,15 +51,6 @@ body {
   justify-content: space-around;
   padding: 80px 20px;
   background-color: #fffff;
-
-
- 
-  position: relative;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }
 
 .hero-text {
@@ -90,13 +81,6 @@ body {
 .hero-image img {
   width: 400px;
   border-radius: 0px;
-
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  transform: translateY(0);
-  transition: transform 0.2s ease-out;
-  will-change: transform;
 }
 
 /* Experience Section */
