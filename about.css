@@ -1,81 +1,82 @@
 /* about.css */
 
 body {
-  font-family: 'Outfit', sans-serif;
-  background-color: #ffffff;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
-
-.navbar {
-  width: 92%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #ffffff;
-}
-
-.logo img {
-  height: 40px;
-}
-
-.nav-links a {
-  margin-left: 20px;
-  font-size: 14px;
-  text-decoration: none;
-  color: #333;
-  font-weight: 400;
-}
-
-.about-hero {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 20px;
-}
-
-.about-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 60px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.about-image img {
-  width: 300px;
-  height: auto;
-  border-radius: 16px;
-  object-fit: cover;
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
-}
-
-.about-text {
-  max-width: 600px;
-}
-
-.about-text h1 {
-  font-size: 2.8rem;
-  margin-bottom: 10px;
-}
-
-.about-text h2 {
-  font-size: 1.5rem;
-  font-weight: 400;
-  margin-bottom: 30px;
-}
-
-.about-text p {
-  font-size: 1rem;
-  line-height: 1.8;
-  margin-bottom: 20px;
-}
-
-.about-education {
+    font-family: 'Outfit', sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    background-color: #ffffff;
+    margin: 0 auto;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .nav-links a {
+    margin-left: 20px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+  }
+  
+  .about-hero {
+   min-height: 90vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 40px 20px;
+  }
+  
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 16px;
+    object-fit: cover;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-text {
+    max-width: 600px;
+  }
+  
+  .about-text h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .about-text h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+ .about-education {
   margin-top: 40px;
 }
 
@@ -84,39 +85,34 @@ body {
   margin-bottom: 10px;
 }
 
-.about-education ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about-education li {
+.education-item {
   font-size: 1rem;
-  line-height: 1.6;
-}
-
-
-
-.about-text button {
-  padding: 12px 32px;
-  font-size: 1rem;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  border-radius: 8px;
-}
-
-.about-text button:hover {
-  background-color: #555;
-}
-
-@media (max-width: 768px) {
-  .about-container {
-    flex-direction: column;
-    text-align: center;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}  
+  
+  
+  .about-text button {
+    padding: 12px 32px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
   }
-
-  .about-image img {
-    width: 200px;
+  
+  .about-text button:hover {
+    background-color: #555;
   }
-}
+  
+  @media (max-width: 768px) {
+    .about-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about-image img {
+      width: 200px;
+    }
+  }
